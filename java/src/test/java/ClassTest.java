@@ -23,4 +23,8 @@ public class ClassTest {
   public void Convert5toV() {
     assertEquals("V", Arabic.toRoman(5));
   }
+  @Test
+  public void Convert6toVI() {
+    assertEquals("VI", Arabic.toRoman(6));
+  }
 }
