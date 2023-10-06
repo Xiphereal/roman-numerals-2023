@@ -14,4 +14,9 @@ public class ClassTest {
   public void Convert2toII() {
     assertEquals("II", Arabic.toRoman(2));
   }
+  @Test
+  public void Convert3toIII() {
+    assertEquals("III", Arabic.toRoman(3));
+  }
+
 }
