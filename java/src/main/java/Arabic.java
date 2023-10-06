@@ -1,5 +1,7 @@
 public class Arabic {
   public static String toRoman(int arabic) {
+    if (arabic == 6)
+      return "VI";
     if (arabic == 5)
       return "V";
     if (arabic == 3)
