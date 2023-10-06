@@ -1,8 +1,8 @@
 public class Arabic {
-  public static String toRoman(int i) {
-    if (i == 3)
+  public static String toRoman(int arabic) {
+    if (arabic == 3)
       return "III";
-    if (i == 2)
+    if (arabic == 2)
       return "II";
 
     return "I";
