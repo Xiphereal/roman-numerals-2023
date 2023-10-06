@@ -10,4 +10,8 @@ public class ClassTest {
 		assertEquals("I", Arabic.toRoman(1));
 	}
 
+  @Test
+  public void Convert2toII() {
+    assertEquals("II", Arabic.toRoman(2));
+  }
 }
